@@ -1,0 +1,40 @@
+{
+  "name": "@8pattern/jselection",
+  "version": "0.1.0",
+  "description": "a library to control selection/range for JS",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "keywords": [
+    "selection",
+    "range"
+  ],
+  "author": "8th-pattern",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.18",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "terser-webpack-plugin": "^2.1.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "main": "./dist/jSelection.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8th-pattern/jSelection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/8th-pattern/jSelection/issues"
+  },
+  "homepage": "https://github.com/8th-pattern/jSelection#readme"
+}

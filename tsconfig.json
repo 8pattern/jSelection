@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "src"
+  ]
+}
